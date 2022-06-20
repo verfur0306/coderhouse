@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sitio para comprar muebles realizados con madera de pallets. 100% reciclados y sustentables. Estamos en Buenos Aires, Argentina.">
+    <meta name="description" content="ecomuebles, reciclados, madera, buenos aires, pallets, reciclaje, sustentable, muebles, sillas, sillones, mesas, mesa de café, patio, mobiliario, mudanza, capital federal, caba, recicladores, sustentabilidad, economía circular">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Fredericka+the+Great&family=Heebo:wght@700&family=Josefin+Sans:ital,wght@0,700;1,100;1,700&family=Montserrat:ital,wght@0,100;1,500&family=Tiro+Gurmukhi&display=swap" rel="stylesheet">
+
+    <title>Naturalmente Madera - Carpintería sustentable</title>
+</head>
+<body class="contenedor">
+  <header class="navegador">
+          <ul>
+              <li><a href="../index.html">Home</a></li> 
+              <li><a href="./nosotros.html">Sobre nosotros</a></li>
+              <li><a href="./productos.html">Productos</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
+              <li><a href="./carrito.html">Carrito</a></li>
+          </ul>
+  </header>
+  <footer class="footer">
+    <p>
+        Seguinos en nuestras redes:
+        Facebook
+        Instagram 
+    </p>  
+</footer>
+    <main class="encabezado">
+            <div class="contact_form">
+                <div class="formulario">      
+                    <h1 class="cc"animate__fadeIn>FORMULARIO DE PAGO</h1>
+                    <h2 class="cc2"> Por favor ingrese los datos de su tarjeta de crédito</h2>      
+                      <form action="submeter-formulario.php" method="post">       
+                            <div>
+                              <label for="nombre" class="colocar_nombre">Nombre y apellido
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Nombre y Apellido como figura en la tarjeta">
+                            </div>
+                          
+                            <div>
+                                <label for="tarjetaN" class="colocar_tarjeta">Número de tarjeta
+                                </label>
+                                  <input type="TarjN" name="introducir_tarjeta" id="tarjetaN" placeholder="Escriba su número de tarjeta sin espacios">
+                              </div> 
+                              <div>
+                                <label for="CodSeg" class="colocar_codigo">Código de seguridad</label>
+                                  <input type="CodSeg" name="introducir_codigo" id="CodSeg" placeholder="Escriba el número al inverso de su tarjeta">
+                              </div>
+                              <div>
+                                <label for="vencimiento" class="colocar_vencimiento">Fecha de vencimiento
+                                </label>
+                                <label>Mes</label>
+                                        <select name="meses" id="vencimiento">
+                                    <option value="enero">Enero</option>
+                                    <option value="febrero">Febrero</option>
+                                    <option value="marzo">Marzo</option>
+                                    <option value="abril">Abril</option>
+                                    <option value="mayo">Mayo</option>
+                                    <option value="junio">Junio</option>
+                                    <option value="julio">Julio</option>
+                                    <option value="agosto">Agosto</option>
+                                    <option value="septiembre">Septiembre</option>
+                                    <option value="octubre">Octubre</option>
+                                    <option value="noviembre">Noviembre</option>
+                                    <option value="diciembre">Diciembre</option>
+                                        </select>
+                            
+                                <label>Año</label>
+                                    <select name="anio" id="">
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                              </div>   
+                               
+                      </form>
+                </div>  
+              </div>
+            </main>    
+
+    
+</body>
+</html>
