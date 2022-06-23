@@ -19,6 +19,7 @@
 .navegador{
   height: 45px;
   grid-area: header;
+  width: 100%;
   
 }
 
@@ -38,7 +39,6 @@ p{
 }
 
 .nosotros{
-  width: 300px;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
@@ -50,12 +50,22 @@ p{
   justify-content: center;
   margin-left: 20%;
   margin-right: 20%;
+  margin-top: 5%;
+}
+
+.tituloProducto{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 5%;
 }
 
 
 .quehacemos p{
   text-align: center;
 }
+
+
 
 .container{
   display: grid;
@@ -69,6 +79,17 @@ p{
 
 }
 
+.caja{
+  display: flex;
+  justify-content: left;
+}
+
+.desc{
+  display: flex;
+  justify-content: right;
+  align-self: center;
+  vertical-align: middle;
+}
 
 .fotos{
   width: 350px;
@@ -144,6 +165,10 @@ img{
 }
 
 .productos{
+  grid-area: sec;
+}
+
+.carrusel{
   grid-area: sec;
 }
 
