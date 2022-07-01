@@ -1,0 +1,52 @@
+.titulo{
+    background-image: url(../img/haley-shives-56fTVrbfjjQ-unsplash.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+
+.titulo h1{
+    color:$colorBlanco;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    position: relative;
+    padding: 5% 3% 3% 3%;
+    text-align: center;
+}  
+
+.titulo h2{
+    color:$colorBlanco;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: $parrafo;
+    font-weight: 700;
+  }
+
+  .nosotros{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  
+  .subtitulo, h3{
+    text-align: center;
+    margin-top: 15%;
+    font-family: 'Josefin sans', sans-serif;
+    color: $colorNegro;
+    font-size: $tamTitSeccion;
+  }
+  
+  .tituloProducto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5%;
+  }
+  

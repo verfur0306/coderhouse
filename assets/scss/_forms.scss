@@ -1,0 +1,22 @@
+.boton{
+    display: flex;
+    justify-content: end;
+    margin: 5%;
+    font-family: 'Josefin sans', sans-serif;
+  }
+  
+  .venc{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+  }
+
+  .cc2{
+    color: $colorNegro;
+      font-family: 'Montserrat', sans-serif;
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 30px;
+  }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="sitio para comprar muebles realizados con madera de pallets. 100% reciclados y sustentables. Estamos en Buenos Aires, Argentina.">
     <meta name="description" content="ecomuebles, reciclados, madera, buenos aires, pallets, reciclaje, sustentable, muebles, sillas, sillones, mesas, mesa de café, patio, mobiliario, mudanza, capital federal, caba, recicladores, sustentabilidad, economía circular">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/scss/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,26 +48,26 @@
     <main class="encabezado">
             <div class="contact_form">
                 <div class="formulario">      
-                    <h1 class="cc"animate__fadeIn>FORMULARIO DE PAGO</h1>
+                    <h1 class="subtitulo"animate__fadeIn>FORMULARIO DE PAGO</h1>
                     <h2 class="cc2"> Por favor ingrese los datos de su tarjeta de crédito</h2>      
                       <form action="submeter-formulario.php" method="post">       
                         <div class="mb-3">
                           <label for="nombre" class="nombre">Nombre y apellido</label>
-                          <textarea class="form-control" id="nombre" rows="1"></textarea>
+                          <textarea class="form-control" id="nombre" rows="1" required></textarea>
                         </div>
                         <div class="mb-3">
                           <label for="tarjetaNum" class="form-label">Número de tarjeta</label>
-                          <textarea class="form-control" id="tarjetaNum" rows="1"></textarea>
+                          <textarea class="form-control" id="tarjetaNum" rows="1" required></textarea>
                         </div>
                         <div class="mb-3">
                           <label for="tarjetaCod" class="form-label">Código de Seguridad</label>
-                          <textarea class="form-control" id="tarjetaCod" rows="1"></textarea>
+                          <textarea class="form-control" id="tarjetaCod" rows="1" required></textarea>
                         </div>
 <div class="venc">
   <label for="vencimiento" class="colocar_vencimiento">Fecha de vencimiento
   </label>
 
-    <select class="form-select col-lg-4 m-2" aria-label="Default select example">
+    <select class="form-select col-lg-4 m-2" aria-label="Default select example" required>
     <option selected>Mes</option>
       <option value="enero">Enero</option>
       <option value="febrero">Febrero</option>
@@ -83,7 +83,7 @@
       <option value="diciembre">Diciembre</option>
           </select>
 
-          <select class="form-select col-lg-4 m-2" aria-label="Default select example">
+          <select class="form-select col-lg-4 m-2" aria-label="Default select example" required>
     <option selected>Año</option>
     <option value="1">2022</option>
     <option value="2">2023</option>
@@ -93,7 +93,9 @@
                                 
                                  
                               </div>   
-                               
+                              <div class="boton">
+                                <input type="button" value="Enviar">
+                              </div>
                       </form>
                 </div>  
               </div>
