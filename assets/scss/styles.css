@@ -185,15 +185,6 @@ img {
   margin-top: 50px;
 }
 
-.cc2 {
-  color: rgb(0, 0, 0);
-  font-family: "Montserrat", sans-serif;
-  display: block;
-  text-align: center;
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
 .encabezado {
   grid-area: main;
 }
@@ -233,7 +224,7 @@ img {
   display: flex;
   justify-content: end;
   margin: 5%;
-  font-family: "Josefin sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .venc {
@@ -252,6 +243,12 @@ img {
   margin-bottom: 30px;
 }
 
+.form-label, .vto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .footer {
   grid-area: footer;
   background-color: rgb(196, 190, 181);
@@ -265,6 +262,4 @@ img {
 .footer p {
   font-size: 16px;
   text-decoration: none;
-  -webkit-text-emphasis: none;
-          text-emphasis: none;
 }/*# sourceMappingURL=styles.css.map */
