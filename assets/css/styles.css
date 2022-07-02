@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 .titulo {
   background-image: url(../img/haley-shives-56fTVrbfjjQ-unsplash.jpg);
   background-size: cover;
@@ -85,12 +80,12 @@ p {
     flex-direction: column;
     height: 20%;
     background-color: #c4beb5; }
-  .navegador ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #c4beb5; }
+    .navegador ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: #c4beb5; }
   .principal {
     flex-direction: row;
     align-items: center;
@@ -99,8 +94,8 @@ p {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-  .footer p {
-    font-size: 14px; } }
+    .footer p {
+      font-size: 14px; } }
 
 .container {
   display: grid;
