@@ -12,17 +12,17 @@
           "footer"
           ;
         }
-        .titulo h1{
-          font-size: 40px;
-          vertical-align: middle;
-        }
-    
-        .titulo h2{
-          font-size: 20px;
-          vertical-align: middle;
-        }
+
         .titulo{
           height: 200px;
+            h1{
+              font-size: 40px;
+          vertical-align: middle;
+            }
+            h2{
+              font-size: 20px;
+          vertical-align: middle;
+            }
         }
     
         .navegador {
@@ -30,7 +30,8 @@
           flex-direction: column;
           height: 20%;
           background-color: $colorPrimario;
-         }
+         
+        }
     
         .navegador ul {
           list-style: none;

@@ -3,24 +3,22 @@
     background-size: cover;
     height: 300px;
     text-align: center;
-}
-
-.titulo h1{
-    color:$colorBlanco;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 100;
-    font-size: 60px;
-    position: relative;
-    padding: 5% 3% 3% 3%;
-    text-align: center;
-}  
-
-.titulo h2{
+    h1{
+      color:$colorBlanco;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 100;
+      font-size: 60px;
+      position: relative;
+      padding: 5% 3% 3% 3%;
+      text-align: center;
+  }
+  h2{
     color:$colorBlanco;
     font-family: 'Montserrat', sans-serif;
     display: block;
     text-align: center;
 
+}
 }
 
 p{

@@ -26,23 +26,20 @@
     background-color: $colorSecundario;
     border-radius: 100%;
     margin: 3%;
-  }
-  
-  .fotos img{
-    transition: 1s ease;
-    }
+    img{
+      transition: 1s ease;
+      &hover {
+        -webkit-filter: blur(1px);
+        transition: 0.5s ease;
+        }
+      }
+      h4{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
     
-    .fotos img:hover {
-    -webkit-filter: blur(1px);
-    transition: 0.5s ease;
-    }
-  
-    .fotos h4{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 22px;
-      font-weight: 700;
-  
-    }
+      }
+  }
   
   img{
     width: 200px;
