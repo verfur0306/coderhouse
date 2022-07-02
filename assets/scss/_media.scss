@@ -30,17 +30,17 @@
           flex-direction: column;
           height: 20%;
           background-color: $colorPrimario;
+          ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: $colorPrimario;
+            }
+      
          
         }
-    
-        .navegador ul {
-          list-style: none;
-          padding: 0;
-          display: flex;
-          flex-direction: column;
-          background-color: $colorPrimario;
-          }
-    
+     
         .principal{
             flex-direction: row ;
             align-items: center;
@@ -51,9 +51,10 @@
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
+            p{
+              font-size: 14px;
+            }
             
         }
-        .footer p{
-          font-size: 14px;
-        }
+       
     }
