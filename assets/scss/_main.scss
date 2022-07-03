@@ -28,7 +28,7 @@
     margin: 3%;
     img{
       transition: 1s ease;
-      &hover {
+      &:hover{
         -webkit-filter: blur(1px);
         transition: 0.5s ease;
         }
@@ -71,8 +71,7 @@
   }
   
   .carousel-item img{
-  width: 100%;
-  height: 600px;
+   @include sizes(100%, 600px);
   object-fit: cover;
   }
   
@@ -86,4 +85,9 @@
       font-family: 'Montserrat', sans-serif;
       margin-top: 2%;
       
+  }
+
+  .mapa{
+    display: flex;
+    justify-content: center;
   }

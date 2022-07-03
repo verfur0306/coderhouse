@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .titulo {
   background-image: url(../img/haley-shives-56fTVrbfjjQ-unsplash.jpg);
   background-size: cover;
@@ -39,6 +44,10 @@ p {
   font-size: 40px;
   font-weight: 700;
   margin-top: 5%; }
+
+.descripcion {
+  display: flex;
+  justify-content: center; }
 
 .navbar {
   font-family: 'Montserrat', sans-serif;
@@ -121,7 +130,7 @@ p {
   margin: 3%; }
   .fotos img {
     transition: 1s ease; }
-    .fotos imghover {
+    .fotos img:hover {
       -webkit-filter: blur(1px);
       transition: 0.5s ease; }
   .fotos h4 {
@@ -166,6 +175,10 @@ img {
   font-family: 'Montserrat', sans-serif;
   margin-top: 2%; }
 
+.mapa {
+  display: flex;
+  justify-content: center; }
+
 .boton {
   display: flex;
   justify-content: end;
@@ -199,7 +212,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around; }
-
-.footer p {
-  font-size: 16px;
-  text-decoration: none; }
+  .footer p {
+    font-size: 16px;
+    text-decoration: none; }
