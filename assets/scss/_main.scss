@@ -7,6 +7,11 @@
                           "sec sec sec"
                           "footer footer footer";
   }
+
+  @mixin sizes($ancho, $altura){
+    width: $ancho;
+    height: $altura;
+}
   
   .caja{
     display: flex;
