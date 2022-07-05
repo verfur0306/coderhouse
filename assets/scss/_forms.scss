@@ -1,9 +1,41 @@
+.botones{
+  display: flex;
+  justify-content: center;
+}
+
 .boton{
+    margin: 2%;
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 15px;
+    padding: 2%;
+    text-align: center;
     display: flex;
-    justify-content: end;
-    margin: 5%;
-    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    width: 150px;
   }
+
+  .botonA{
+    @extend .boton;
+    &:hover{
+      background-color: rgb(141, 201, 141);
+    }
+  }
+
+  .botonCT{
+    @extend .boton;
+    &:hover{
+      background-color: rgb(141, 201, 141);
+    }
+  }
+
+  .botonC{
+    @extend .boton;
+    &:hover{
+    background-color: rgb(207, 132, 132);
+    }    
+  }
+
+  
   
   .venc{
     display: flex;

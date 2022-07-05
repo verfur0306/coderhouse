@@ -6,8 +6,25 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
     p{
       font-size: 16px;
       text-decoration: none;
+      list-style: none;
+    }
+    a{
+      text-decoration: none;
+      color: #000;
     }
   }
+
+  $redes:(facebook: #3b5998, instagram: #E1306C);
+  
+  @each $var, $color in $redes{
+    .red--#{$var}{
+      &:hover{
+        color:$color;
+      }
+    }
+  }
+
