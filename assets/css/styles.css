@@ -22,10 +22,18 @@
     display: block;
     text-align: center; }
 
-p {
+p, .p2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: 700; }
+
+.p2 {
+  text-align: center; }
+
+.strong {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 900; }
 
 .nosotros {
   display: flex;
@@ -103,7 +111,7 @@ p {
     flex-direction: row;
     justify-content: space-around;
     align-items: center; }
-    .footer p {
+    .footer p, .footer .p2 {
       font-size: 12px; } }
 
 .container {
@@ -229,7 +237,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-around; }
-  .footer p {
+  .footer p, .footer .p2 {
     font-size: 16px;
     text-decoration: none;
     list-style: none; }

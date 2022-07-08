@@ -25,6 +25,18 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-size: $parrafo;
     font-weight: 700;
+    
+  }
+
+  .p2{
+    @extend p;
+    text-align: center;
+  }
+
+  .strong{
+    font-family: 'Montserrat', sans-serif;
+    font-size: $parrafo;
+    font-weight: 900;
   }
 
   .nosotros{
