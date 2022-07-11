@@ -39,7 +39,7 @@
         }
       }
       h4{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $tipoP;
         font-size: 22px;
         font-weight: 700;
     
@@ -87,7 +87,7 @@
       align-items: center;
       list-style-type: none;
       text-align: center;
-      font-family: 'Montserrat', sans-serif;
+      font-family: $tipoP;
       margin-top: 2%;
       
   }
@@ -95,4 +95,10 @@
   .mapa{
     display: flex;
     justify-content: center;
+  }
+
+  .card-group{
+    display: flex;
+    flex-flow: wrap;
+  
   }

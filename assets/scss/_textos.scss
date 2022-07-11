@@ -5,8 +5,7 @@
     text-align: center;
     h1{
       color:$colorBlanco;
-      font-family: 'Josefin Sans', sans-serif;
-      font-weight: 100;
+      font-family: $tipoTit;
       font-size: 60px;
       position: relative;
       padding: 5% 3% 3% 3%;
@@ -14,7 +13,7 @@
   }
   h2{
     color:$colorBlanco;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $tipoTit;
     display: block;
     text-align: center;
 
@@ -22,9 +21,19 @@
 }
 
 p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $tipoP;
     font-size: $parrafo;
-    font-weight: 700;
+    text-decoration: none;
+    color: black
+  }
+
+  .cardHome a{
+    @extend p;
+    color: azure;
+    font-weight: 400;
+    &:hover{
+      color: burlywood
+    }
     
   }
 
@@ -34,9 +43,8 @@ p{
   }
 
   .strong{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $tipoP;
     font-size: $parrafo;
-    font-weight: 900;
   }
 
   .nosotros{
@@ -48,15 +56,14 @@ p{
   .subtitulo, h3{
     text-align: center;
     margin-top: 15%;
-    font-family: 'Josefin sans', sans-serif;
+    font-family: $tipoTit;
     color: $colorNegro;
     font-size: $tamTitSeccion;
   }
   
   .tituloProducto{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
+    font-family: $tipoP;
+    font-size: 40p;
     margin-top: 5%;
   }
   
@@ -64,3 +71,23 @@ p{
     display: flex;
     justify-content: center;
   }
+
+  .card-title{
+    font-family: $tipoTit;
+    font-size: $parrafo;
+    a{
+      text-decoration: none;
+      color: black;
+      &:hover{
+        color: $colorPrimario;
+      }
+    }
+    
+  }
+
+  .card-text{
+    font-family: $tipoP;
+    font-size: $parrafo;
+    
+  }
+  

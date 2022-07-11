@@ -44,7 +44,7 @@
 
   .cc2{
     color: $colorNegro;
-      font-family: 'Montserrat', sans-serif;
+      font-family: $tipoP;
       display: block;
       text-align: center;
       font-size: 20px;
@@ -53,7 +53,7 @@
   }
 
   .form-label, .vto{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $tipoP;
     font-size: 20px;
     font-weight: 700;
 }

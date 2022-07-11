@@ -1,6 +1,6 @@
 
   .navbar{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $tipoP;
     font-weight: 700;
     display: flex;
     flex-flow: row wrap;
@@ -20,5 +20,5 @@
 
   .navbar-nav{
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif; ;
+    font-family: $tipoP; ;
    }
