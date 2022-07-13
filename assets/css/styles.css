@@ -74,6 +74,10 @@ p, .cardHome a, .p2 {
   font-family: "Lato", sans-serif;
   font-size: 22px; }
 
+.cardHome a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px; }
+
 .navbar {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -129,7 +133,9 @@ p, .cardHome a, .p2 {
     justify-content: space-around;
     align-items: center; }
     .footer p, .footer .cardHome a, .cardHome .footer a, .footer .p2 {
-      font-size: 12px; } }
+      font-size: 12px; }
+  .imgAdolfo {
+    height: 40px; } }
 
 .container {
   display: grid;
@@ -207,6 +213,11 @@ img {
 .card-group {
   display: flex;
   flex-flow: wrap; }
+
+.imgAdolfo {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; }
 
 .botones {
   display: flex;
