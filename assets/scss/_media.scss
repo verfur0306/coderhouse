@@ -14,15 +14,15 @@
         }
 
         .titulo{
-          height: 200px;
-            h1{
-              font-size: 40px;
-          vertical-align: middle;
-            }
-            h2{
-              font-size: 20px;
-          vertical-align: middle;
-            }
+          height: 300px;
+          width: 100%;
+          h1{
+            font-size: 40px;
+          }
+          h2{
+            font-size: 20px;
+        vertical-align: middle;
+          }
         }
     
         .navegador {
@@ -56,15 +56,11 @@
             }
             
         }
-        .fotos{
-          display: block;
-          margin-left: 20%;
-          margin-right: 20%;
-    
-        }
+      
         .imgAdolfo{
           height: 40px;
         }
+
 
        
     }
