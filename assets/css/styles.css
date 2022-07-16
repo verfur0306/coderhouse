@@ -28,10 +28,10 @@ p, .cardHome a, .p2 {
   color: black; }
 
 .cardHome a {
-  color: azure;
+  color: black;
   font-weight: 400; }
   .cardHome a:hover {
-    color: burlywood; }
+    color: #ffff; }
 
 .p2 {
   text-align: center; }
@@ -98,6 +98,9 @@ p, .cardHome a, .p2 {
   font-size: 18px;
   font-family: "Lato", sans-serif; }
 
+.material-symbols-outlined {
+  margin: 10% 5%; }
+
 @media screen and (max-width: 768px) {
   .grid {
     margin: 0%;
@@ -154,11 +157,11 @@ p, .cardHome a, .p2 {
   vertical-align: middle; }
 
 .fotos {
-  width: 350px;
-  height: 350px;
-  background-color: #635d54;
-  border-radius: 100%;
-  margin: 3%; }
+  width: 300px;
+  height: 300px;
+  background-color: #c4beb5;
+  border-radius: 10%;
+  margin: 5%; }
   .fotos img {
     transition: 1s ease; }
     .fotos img:hover {
@@ -229,7 +232,7 @@ img {
   margin: 2%;
   font-family: 'Josefin sans', sans-serif;
   font-size: 15px;
-  padding: 2%;
+  padding: 4%;
   text-align: center;
   display: flex;
   justify-content: center;

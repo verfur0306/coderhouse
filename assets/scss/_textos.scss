@@ -29,10 +29,10 @@ p{
 
   .cardHome a{
     @extend p;
-    color: azure;
+    color: $colorNegro;
     font-weight: 400;
     &:hover{
-      color: burlywood
+      color: $colorBlanco;
     }
     
   }

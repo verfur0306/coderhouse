@@ -26,11 +26,11 @@
   }
   
   .fotos{
-    width: 350px;
-    height: 350px;
-    background-color: $colorSecundario;
-    border-radius: 100%;
-    margin: 3%;
+    width: 300px;
+    height: 300px;
+    background-color: $colorPrimario;
+    border-radius: 10%;
+    margin: 5%;
     img{
       transition: 1s ease;
       &:hover{
@@ -110,3 +110,4 @@
     width: 200px;
     height: 200px;
   }
+
