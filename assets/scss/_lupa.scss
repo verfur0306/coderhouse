@@ -1,0 +1,29 @@
+.zoomArea {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 28px;
+  }
+
+  #proto{
+    width: 600px;
+    height: 450px;
+  }
+  
+  .zoomArea > image {
+    width: 100%;
+    height: 100%;
+  }
+
+#NZoomImg {
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+  }

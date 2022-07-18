@@ -46,7 +46,7 @@
       }
   }
   
-  img{
+.imgFront{
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -75,11 +75,7 @@
     justify-content: center;
   }
   
-  .carousel-item img{
-   @include sizes(100%, 600px);
-  object-fit: cover;
-  }
-  
+ 
   .galeria{
       display: flex;
       flex-flow: row wrap;
@@ -103,11 +99,15 @@
   
   }
 
+  .card-img-top{
+    border-radius: 10%;
+  }
+
   .imgAdolfo{
     border-radius: 50%;
     display: flex;
     justify-content: center;
     width: 200px;
-    height: 200px;
+    height: 180px;
   }
 
