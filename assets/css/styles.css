@@ -308,7 +308,7 @@ p, .cardHome a, .p2 {
 
 .zoomArea {
   width: 600px;
-  height: 400px;
+  height: auto;
   overflow: hidden;
   border: 0;
   display: flex;
@@ -317,17 +317,21 @@ p, .cardHome a, .p2 {
 
 #proto {
   width: 600px;
-  height: 450px; }
+  height: auto; }
 
-.zoomArea > image {
-  width: 100%;
-  height: 100%; }
-
-#NZoomImg {
-  width: 600px;
-  height: 450px;
+.zoom {
+  max-width: 600px;
   overflow: hidden;
-  border: 0;
   display: flex;
   justify-content: center;
-  border-radius: 8px; }
+  border-radius: 10%; }
+
+#lupa {
+  width: 100%;
+  height: auto; }
+
+.jsZoomTouch:after {
+  content: 'Pinch to Zoom';
+  position: absolute;
+  top: 0;
+  right: 0; }
