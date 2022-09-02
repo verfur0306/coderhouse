@@ -45,7 +45,56 @@ function calculoCategoria(){
 
 
 
-  }
+  }  
 
 calculoCategoria()
+
+
+
+function capturarNombre(){
+  const nombre = [];
+  nombre.push(document.getElementById("nombre").value);
+  for (let i = 0; i < nombre.length; i++){
+    console.log(nombre[i])
+  }
+
+}
+
+capturarNombre()
+
+
+function capturarApellido(){
+  const apellido = [];
+  apellido.push(document.getElementById("apellido").value);
+  for (let i = 0; i < apellido.length; i++){
+    console.log(apellido[i])
+  }
+
+}
+
+capturarApellido()
+
+
+function capturarCorreo(){
+  const mail = [];
+  mail.push(document.getElementById("email").value);
+  for (let i = 0; i < mail.length; i++){
+    console.log(mail[i])
+  }
+
+}
+
+capturarCorreo()
+
+
+function capturarTel(){
+  const tel = [];
+  tel.push(document.getElementById("tel").value);
+  for (let i = 0; i < tel.length; i++){
+    console.log(tel[i])
+  }
+
+}
+
+capturarTel()
 
