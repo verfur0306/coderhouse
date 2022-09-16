@@ -59,9 +59,59 @@
             </div>
         </div>
         </div>
-    
     </div>
 </div>
+
+<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+    <form> 
+        <div class="form-row"> 
+        <div class= "d-flex"> 
+        <div class="form-group col-6 col-md-6 m-1"> 
+            <input type="text" id="nombre" class="form-control" onchange="capturarNombre()" placeholder="Nombre"/>
+            </div>
+            <div class="form-group col-6 col-md-6 m-1"> 
+            <input type="text" id="apellido" class="form-control" onchange="capturarApellido()" placeholder="Apellido"/>
+            </div>
+        </div>
+            <div class="form-group col-12 col-md-12 m-1">
+            <input type="email" id="email" class="form-control" onchange="capturarCorreo()" placeholder="Correo"/>
+            </div>
+            <div class="form-group col-12 col-md-12 m-1">
+                <input type="number" id="tel" class="form-control" onchange="capturarTel()" placeholder="Teléfono"/>
+                </div>
+            <div class="d-flex">
+                <div class="form-group col-6 col-md-6 m-1"> 
+                    <label for="">¿Qué te vas a hacer?</label>
+                    
+                    <select class="form-select" id="peloSelect" onchange=mostrarPelo()> 
+                        <option value="corte">Corte</option>
+                        <option value="tintura">Corte y tintura</option>
+                        <option value="peinado">Peinado</option>
+                    </select>
+                </div>
+                <div class="form-group col-6 col-md-6 m-1"> 
+                    <label for="">Categoría</label>
+                    <select class="form-select" id="inputSelect" onchange=calculoCategoria()> 
+                        <option value="estudiante">Estudiante</option>
+                        <option value="jubilado">Jubilado</option>
+                        <option value="ninguno">Ninguno</option>
+                    </select>
+                </div>
+            </div>
+    <div class="form-row">
+        <div class="alert alert-success m-2" role="alert" id="mostrarFinal">
+        Total a pagar: $
+        </div>
+    </div>
+    <div class="form-row d-flex mt-2">
+        <button class="btn btn-success col-5 m-3"> Borrar </button>
+        <button class="btn btn-success col-5 m-3"> Siguiente paso </button>
+        </div>
+    </form>
+
+
+
+
 
     <script src="./descuento.js">
     </script>

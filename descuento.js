@@ -1,65 +1,99 @@
-
 function mostrarPelo(){
-    let opcion = prompt(`por favor indique el procedimiento: corte // tintura // peinado`)
+  let opcion = document.getElementById("peloSelect").value;
 
-    console.log(opcion)   
+  console.log(opcion)   
 
 
-    if (opcion.toLowerCase() =="corte"){  
+  if (opcion==="corte"){
       return precioFull = 1500
 
-      }else if (opcion.toLowerCase() =="tintura"){
-        return precioFull = 3000
+    }else if (opcion==="tintura"){
+      return precioFull = 3000
 
-      }else if(opcion.toLowerCase() =="peinado"){
-        return precioFull= 2000
-      }
+    }else if(opcion==="peinado"){
+      return precioFull= 2000
+    }
 
-      
 
-  }
+}
 
 mostrarPelo()
 
 
 function calculoCategoria(){
-  let opcion = prompt(`Ahora, seleccione si tiene opción de descuento: estudiante // jubilado  // ninguno`)
+let opcion = document.getElementById("inputSelect").value;
+let mostrarFinal = document.getElementById("mostrarFinal")
 
-  console.log(opcion)   
-
-
-  if (opcion.toLowerCase() =="estudiante"){
-      let precioFinal = precioFull * 0.8
-      mostrarFinal = alert(`Usted es ${opcion} y por eso el precio para el procedimiento seleccionado es ${precioFinal} `)
-      
-
-    }else if (opcion.toLowerCase() =="jubilado"){
-      let precioFinal = precioFull * 0.6
-      mostrarFinal = alert(`Usted es ${opcion} y por eso el precio para el procedimiento seleccionado es ${precioFinal} `)
-      
-
-    }else if(opcion.toLowerCase() =="ninguno"){
-      let precioFinal= precioFull
-      mostrarFinal = alert(`Usted no tiene descuento y por eso el precio para el procedimiento seleccionado es ${precioFinal} `) 
-    }
+console.log(opcion)   
 
 
-  }  
+if (opcion==="estudiante"){
+    let precioFinal = precioFull * 0.8
+    mostrarFinal.innerHTML = `Total: \$${precioFinal}`
+    
+
+  }else if (opcion==="jubilado"){
+    let precioFinal = precioFull * 0.6
+    mostrarFinal.innerHTML = `Total: \$${precioFinal}`
+    
+
+  }else if(opcion==="ninguno"){
+    let precioFinal= precioFull
+    mostrarFinal.innerHTML = `Total: \$${precioFinal}` 
+  }
+
+
+
+}  
 
 calculoCategoria()
 
 
 
 function capturarNombre(){
-  const nombre = [];
-  nombre.push(prompt(`ahora por favor ingrese su nombre y apellido`));
-  for (let i = 0; i < nombre.length; i++){
-    console.log(nombre[i])
-  }
+const nombre = [];
+nombre.push(document.getElementById("nombre").value);
+for (let i = 0; i < nombre.length; i++){
+  console.log(nombre[i])
+}
 
 }
 
 capturarNombre()
 
 
+function capturarApellido(){
+const apellido = [];
+apellido.push(document.getElementById("apellido").value);
+for (let i = 0; i < apellido.length; i++){
+  console.log(apellido[i])
+}
+
+}
+
+capturarApellido()
+
+
+function capturarCorreo(){
+const mail = [];
+mail.push(document.getElementById("email").value);
+for (let i = 0; i < mail.length; i++){
+  console.log(mail[i])
+}
+
+}
+
+capturarCorreo()
+
+
+function capturarTel(){
+const tel = [];
+tel.push(document.getElementById("tel").value);
+for (let i = 0; i < tel.length; i++){
+  console.log(tel[i])
+}
+
+}
+
+capturarTel()
 
