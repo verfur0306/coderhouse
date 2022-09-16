@@ -81,20 +81,20 @@
                 </div>
             <div class="d-flex">
                 <div class="form-group col-6 col-md-6 m-1"> 
-                    <label for="">¿Qué te vas a hacer?</label>
+                    <label for="">Paso 1: ¿Qué te vas a hacer?</label>
                     
-                    <select class="form-select" id="peloSelect" onchange=mostrarPelo()> 
+                    <select class="form-select" id="peloSelect" onclick="mostrarPelo()"> 
                         <option value="corte">Corte</option>
                         <option value="tintura">Corte y tintura</option>
                         <option value="peinado">Peinado</option>
                     </select>
                 </div>
                 <div class="form-group col-6 col-md-6 m-1"> 
-                    <label for="">Categoría</label>
-                    <select class="form-select" id="inputSelect" onchange=calculoCategoria()> 
+                    <label for="">Paso 2: ¿Tenes descuento?</label>
+                    <select class="form-select" id="inputSelect" onclick="calculoCategoria()"> 
+                        <option value="ninguno">Sin descuento</option>
                         <option value="estudiante">Estudiante</option>
                         <option value="jubilado">Jubilado</option>
-                        <option value="ninguno">Ninguno</option>
                     </select>
                 </div>
             </div>

@@ -1,3 +1,5 @@
+
+
 function mostrarPelo(){
   let opcion = document.getElementById("peloSelect").value;
 
@@ -5,12 +7,15 @@ function mostrarPelo(){
 
 
   if (opcion==="corte"){
+      mostrarFinal.innerHTML = `Total: \$1500`
       return precioFull = 1500
 
     }else if (opcion==="tintura"){
+      mostrarFinal.innerHTML = `Total: \$3000`
       return precioFull = 3000
 
     }else if(opcion==="peinado"){
+      mostrarFinal.innerHTML = `Total: \$2000`
       return precioFull= 2000
     }
 
@@ -27,8 +32,8 @@ let mostrarFinal = document.getElementById("mostrarFinal")
 console.log(opcion)   
 
 
-if (opcion==="estudiante"){
-    let precioFinal = precioFull * 0.8
+if (opcion==="ninguno"){
+    let precioFinal = precioFull
     mostrarFinal.innerHTML = `Total: \$${precioFinal}`
     
 
@@ -37,8 +42,8 @@ if (opcion==="estudiante"){
     mostrarFinal.innerHTML = `Total: \$${precioFinal}`
     
 
-  }else if(opcion==="ninguno"){
-    let precioFinal= precioFull
+  }else if(opcion==="estudiante"){
+    let precioFinal= precioFull * 0.8
     mostrarFinal.innerHTML = `Total: \$${precioFinal}` 
   }
 
